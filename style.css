@@ -9,7 +9,6 @@ body {
 }
 
 /* Headings */
-h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
@@ -18,7 +17,19 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  text-align: left;
+}
+
+.text-logo {
+  font-family: "Playfair Display", Times, serif;
+  text-align: right;
+  margin: 0;
 }
 
 /* Containers */
@@ -32,6 +43,11 @@ article {
   padding: 50px 0;
 }
 
+.article {
+  display: flex;
+  flex: 1;
+}
+
 article div {
   text-align: center;
   width: 100%;
@@ -40,6 +56,19 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+  font-size: 14px;
+}
+
+ul {
+  text-align: left;
 }
 
 /* Links */
